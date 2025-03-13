@@ -1,0 +1,26 @@
+{
+  "name": "major_project",
+  "version": "1.0.0",
+  "description": "This is my major project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirmal7488/Major_Project.git"
+  },
+  "keywords": [],
+  "author": "Nirmal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nirmal7488/Major_Project/issues"
+  },
+  "homepage": "https://github.com/Nirmal7488/Major_Project#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.12.1"
+  }
+}
