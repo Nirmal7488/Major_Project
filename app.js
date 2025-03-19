@@ -88,8 +88,9 @@ app.delete("/listings/:id",async(req,res)=>{
 // })
 
 app.get("/",(req,res)=>{
-    res.send("Working");
+    res.render("listings/home.ejs");
 })
+
 
 app.listen(8080,()=>{
     console.log("app is listening on port 8080");
