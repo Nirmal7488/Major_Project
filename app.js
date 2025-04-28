@@ -83,7 +83,7 @@ app.delete("/listings/:id",async(req,res)=>{
 //         ,country:"India"
 //     });
 //     await sampleListing.save();
-//     console.log("data saved")
+//     console.log("data saved");
 //     res.send("successful test")
 // })
 
